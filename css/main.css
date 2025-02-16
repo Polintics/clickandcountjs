@@ -1,0 +1,23 @@
+#clicker{
+    background-color: rgb(151, 250, 64);
+    border-radius: 5%;
+    border: 0px;
+    height: 25vh;
+    width: 50vh;
+    font-size: x-large;
+}
+
+.block{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+gap: 10vh;
+}
+
+#finish{
+    color: red;
+    font-size: x-large;
+}
