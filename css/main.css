@@ -2,8 +2,8 @@
     background-color: rgb(151, 250, 64);
     border-radius: 5%;
     border: 0px;
-    height: 25vh;
-    width: 50vh;
+    height: 10vh;
+    width: 30vh;
     font-size: x-large;
 }
 
@@ -12,12 +12,59 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height: 100vh;
+height: 30vh;
 width: 100vw;
-gap: 10vh;
+gap: 5vh;
+background-color: rgb(160, 221, 205);
 }
 
 #finish{
     color: red;
     font-size: x-large;
 }
+
+#block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100vw;
+    gap: 5vh;
+    background-color: rgb(58, 82, 240);
+    }
+
+
+.p2{
+    color: aliceblue;
+    font-size: x-large;
+}
+
+#resettime {
+    background-color: rgb(64, 191, 250);
+    border-radius: 5%;
+    border: 0px;
+    height: 10vh;
+    width: 30vh;
+    font-size: x-large;
+}
+
+#block3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100vw;
+    gap: 5vh;
+    background-color: rgb(231, 255, 179);
+    }
+
+    #btnstart, #btnstop, #btnreset {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5%;
+        border: 0px;
+        height: 10vh;
+        width: 30vh;
+        font-size: x-large;
+    }
